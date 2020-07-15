@@ -1,5 +1,6 @@
-### React Webpack base
+### React-with-typescript-webpack-base
 
-Minimal React Typescript baseline
+Minimal React Typescript Application baseline, bundled by Webpack
 
-Bundled by Webpack
+Uses babel-loader with react, preset and typescript presets.
+
