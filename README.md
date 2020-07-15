@@ -1,4 +1,4 @@
-### Base React Webpack Boilerplat using Webpack
+### Base React Webpack Boilerplate using Webpack
 
 Minimal React Typescript Application baseline, bundled by Webpack
 
