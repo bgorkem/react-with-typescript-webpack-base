@@ -1,7 +1,7 @@
 {
   "name": "react-with-typescript-webpack-base",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "typescript base with security snyk scanning",
   "main": "index.js",
   "scripts": {
     "dev": "webpack serve",
