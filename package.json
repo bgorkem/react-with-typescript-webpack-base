@@ -19,7 +19,7 @@
     "@types/react": "^16.9.43",
     "@types/react-dom": "^16.9.8",
     "babel-loader": "^8.1.0",
-    "fork-ts-checker-webpack-plugin": "^5.0.7",
+    "fork-ts-checker-webpack-plugin": "^5.2.1",
     "html-webpack-plugin": "^4.4.0",
     "lodash": "4.17.21",
     "react": "^16.13.1",
