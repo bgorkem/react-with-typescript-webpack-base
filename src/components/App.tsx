@@ -1,10 +1,9 @@
 import React from 'react';
-import webpack from 'webpack';
 
 type AppProps = { foo: number };
 
-const App: React.FunctionComponent<AppProps> = ({ foo }) => {
-  return <div>Hello this is App! {foo}</div>;
+const App: React.FunctionComponent<AppProps> = (props) => {
+  return <div>Hello this is App! {props.foo}</div>;
 };
 
 export default App;

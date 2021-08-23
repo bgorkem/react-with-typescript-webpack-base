@@ -11,7 +11,11 @@ module.exports = {
         use: {
           loader: 'babel-loader',
           options: {
-            presets: ['@babel/preset-env', '@babel/preset-react', '@babel/preset-typescript'],
+            presets: [
+              '@babel/preset-env',
+              '@babel/preset-react',
+              '@babel/preset-typescript',
+            ],
           },
         },
       },
@@ -22,5 +26,21 @@ module.exports = {
     extensions: ['.ts', '.js', '.tsx', '.jsx'],
   },
 
-  plugins: [new ForkTsCheckerWebpackPlugin(), new HtmlWebPackPlugin({ template: 'index.html' })],
+  plugins: [
+    new ForkTsCheckerWebpackPlugin({
+      eslint: {
+        enabled: true,
+        files: './src/**/*.{ts,tsx,js,jsx}',
+      },
+      typescript: {
+        diagnosticOptions: {
+          semantic: true,
+          syntactic: true,
+        },
+        profile: true,
+        mode: 'write-references', //recommended as we use babel-loader
+      },
+    }),
+    new HtmlWebPackPlugin({ template: 'index.html' }),
+  ],
 };
