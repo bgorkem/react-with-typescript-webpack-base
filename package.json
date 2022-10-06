@@ -40,6 +40,6 @@
     "webpack-dev-server": "4.0.0-rc.0"
   },
   "devDependencies": {
-    "snyk": "^1.682.0"
+    "snyk": "^1.996.0"
   }
 }
