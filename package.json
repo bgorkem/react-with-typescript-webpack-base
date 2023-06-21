@@ -28,7 +28,7 @@
     "eslint-plugin-prettier": "^3.4.1",
     "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "fork-ts-checker-webpack-plugin": "^5.0.7",
+    "fork-ts-checker-webpack-plugin": "^5.0.8",
     "html-webpack-plugin": "^4.4.0",
     "lodash": "4.17.21",
     "prettier": "^2.3.2",
